@@ -13,7 +13,7 @@ The `problems.ipynb` notebooks covers five problems:
 
 3. Build quantum oracles for each single input Boolean function.
 
-4. Implement Deutch's algorithm using Qiskit
+4. Implement Deutch's algorithm using Qiskit.
 
 5. Scale to the Deutsch-Jozsa algorithm for 4-bit inputs.
 
@@ -68,3 +68,6 @@ jupyter notebook problems.ipynb
 - Either **Run All** or run each cell individually
 - Run from the top
 - No external files necessary
+
+## Reference
+The main reference used throughout the `problems.ipynb` notebook is the [IBM Quantum Platform](https://quantum.cloud.ibm.com/learning/en).
