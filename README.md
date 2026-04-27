@@ -1,12 +1,36 @@
 # Emerging Technologies
+This repository demonstrates and explains the difference between classical and quantum computation through the perspective of the Deutsch and Deutch-Jozsa algorithms. The main focus is to explore the advantage of using quantum algorithms over classical.
 
-## Prerequisites
+## Project Overview
+The `problems.ipynb` notebooks covers five problems:
+1. Generating random constant and balanced Boolean functions.
+    - `f(x) = 0`
+    - `f(x) = 1`
+    - `f(x) = x` 
+    - `f(x) = ¬x`
+
+2. Classically determine if a function is constant or balanced.
+
+3. Build quantum oracles for each single input Boolean function.
+
+4. Implement Deutch's algorithm using Qiskit
+
+5. Scale to the Deutsch-Jozsa algorithm for 4-bit inputs.
+
+## Project Structure
+`problems.ipynb`
+- Covers all problems set out in overview.
+
+`requirements.txt`
+- Includes all required dependencies and packages for the project problems.
+
+## Setup Instructions
+### Prerequisites
 - Python 3.12+
 - NumPy
 - Qiskit
 - JupyterLab/Jupyter Notebook (installation below)
 
-## Setup Instructions
 
 ### 1. Clone the repository:
 
